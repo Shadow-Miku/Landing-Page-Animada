@@ -1,0 +1,81 @@
+:root {
+    --body-bg: url('../img/BKG.jpeg');
+}
+
+body {
+    margin: 0;
+    background: var(--body-bg) center 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.marca {
+    font-weight: 600;
+    margin: 5px 0px;
+    padding: 20px 15px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #9e9696;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.niebla1 {
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; /* Ajusta el ancho al 20% del contenedor */ 
+    height: auto; /* Mantiene la proporción de la imagen */ 
+    z-index: 1; 
+    opacity: 1;
+}
+
+.niebla1 img { 
+    width: 100%; /* Asegura que la imagen tome el 100% del contenedor */ 
+    height: auto; /* Mantiene la proporción de la imagen */ 
+}
+
+.niebla2 {
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; /* Ajusta el ancho al 20% del contenedor */ 
+    height: auto; /* Mantiene la proporción de la imagen */ 
+    z-index: 1; 
+    opacity: 1;
+}
+
+.niebla2 img { 
+    width: 100%; /* Asegura que la imagen tome el 100% del contenedor */ 
+    height: auto; /* Mantiene la proporción de la imagen */ 
+}
+
+.niebla3 {
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; /* Ajusta el ancho al 20% del contenedor */ 
+    height: auto; /* Mantiene la proporción de la imagen */ 
+    z-index: 1; 
+    opacity: 1;
+}
+
+.niebla3 img { 
+    width: 100%; /* Asegura que la imagen tome el 100% del contenedor */ 
+    height: auto; /* Mantiene la proporción de la imagen */ 
+}
+
+.niebla4 {
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; /* Ajusta el ancho al 20% del contenedor */ 
+    height: auto; /* Mantiene la proporción de la imagen */ 
+    z-index: 1; 
+    opacity: 1;
+}
+
+.niebla4 img { 
+    width: 100%; /* Asegura que la imagen tome el 100% del contenedor */ 
+    height: auto; /* Mantiene la proporción de la imagen */ 
+}
