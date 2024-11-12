@@ -7,14 +7,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 /*/////////////// Cuerpo y fondo ///////////////*/
 body {
     margin: 0;
-    overflow: hidden; /* Evita que el contenido desborde el tamaño del fondo */
     background: var(--body-bg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: black;
     position: relative;
@@ -128,3 +129,47 @@ h2 {
         transform: translateX(-70%);
     }
 }
+
+/*//////////////// Media Queries ////////////////*/
+
+/* Dispositivos pequeños (telefonos) */
+@media (max-width: 768px) {
+    .marca a {
+        padding: 1rem;
+    }
+    .nav-div ul {
+        padding: 0;
+    }
+    .nav-div ul li {
+        margin: 0 0 0.5rem;
+    }
+
+    .titulo-1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Dispositivos pequeños (telefonos) */
+@media (max-width: 430px) {
+    .marca a {
+        padding: 0.5rem;
+    }
+    .nav-div ul {
+        padding: 0;
+    }
+    .nav-div ul li {    
+        margin: 0 0 0.5rem;
+    }    
+
+    .titulo-1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}   
